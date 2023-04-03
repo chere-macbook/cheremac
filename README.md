@@ -21,6 +21,7 @@ Above hash defines points/score for each event performed by the github user
 ```
 github_username = 'dhh'
 user = UserScore.new(github_username, score_for_each_commit)
+user.total_score
 ```
 
 Above is the sample to calculate score
